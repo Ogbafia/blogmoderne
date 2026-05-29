@@ -1,0 +1,17 @@
+
+# Ignorer les dépendances PHP (Laravel) à la racine ou dans le backend
+vendor/
+backend/vendor/
+
+# Ignorer les dépendances JavaScript/Node (Nuxt/Angular)
+node_modules/
+frontend/node_modules/
+
+# Ignorer les fichiers de configuration locale sensibles (mots de passe BD)
+.env
+backend/.env
+frontend/.env
+
+# Ignorer les dossiers de build ou caches
+.nuxt/
+.output/
